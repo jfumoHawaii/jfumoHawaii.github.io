@@ -2,7 +2,9 @@
 title: Home
 ---
 
-# Your Name
+![Banner](/assets/images/banner.jpg)
+
+# James "Jimmy" Fumo
 
 ### Marine Phycology & Island Biogeography
 
