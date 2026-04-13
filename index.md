@@ -1,10 +1,40 @@
-# Jimmy Fumo
+---
+title: Home
+---
 
-Welcome to my website!
+# Your Name
 
-## About Me
-I study marine algae and invasion biology.
+### Marine Phycology & Island Biogeography
 
-## Research
-- test
-- test2
+---
+
+## Welcome
+
+I am a researcher studying xyz.
+
+---
+
+## 🔬 Current Research Themes
+
+- Theme 1
+- Theme 2
+- Theme 3
+
+---
+
+## 🌊 Field Systems
+
+- Hawai‘i
+- Galápagos Islands
+
+---
+
+## 📢 Latest Highlight
+
+📌 *Add your newest publication, field trip, or project update here*
+
+---
+
+## 📫 Contact
+
+Email: your.email@domain.com
