@@ -1,9 +1,6 @@
 ---
-title: CV
+title: Curriculum Vitae
 ---
-
-# Curriculum Vitae
-
 ## James “Jimmy” Fumo  
 Ph.D., University of Hawai‘i at Mānoa  
 jfumo@hawaii.edu | [Google Scholar](https://scholar.google.com/citations?user=p_1tD08AAAAJ&hl=en&oi=ao)
@@ -15,7 +12,7 @@ jfumo@hawaii.edu | [Google Scholar](https://scholar.google.com/citations?user=p_
 ### Postdoctoral Associate (2026–Present)
 Charles Darwin Foundation / University of Hawai‘i at Mānoa  
 BIOMAR / School of Life Sciences  
-Galápagos, Ecuador & Hawai‘i, USA
+Galápagos, Ecuador / Hawai‘i, USA
 
 ### Instructor – QUEST (2024–Present)
 University of Hawai‘i at Hilo, Marine Sciences
