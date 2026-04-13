@@ -1,7 +1,11 @@
 theme: minima
 
+title: title
+description: description
+
 header_pages:
   - index.md
   - about.md
   - research.md
+  - publications.md
   - cv.md
