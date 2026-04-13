@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+
+header_pages:
+-index.md
+-about.md
+-research.md
+-cv.md
