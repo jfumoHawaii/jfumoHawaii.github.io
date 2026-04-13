@@ -16,7 +16,7 @@ I am a researcher studying xyz.
 
 ---
 
-## 🔬 Current Research Themes
+## Current Research Themes
 
 - Theme 1
 - Theme 2
@@ -24,16 +24,16 @@ I am a researcher studying xyz.
 
 ---
 
-## 🌊 Field Systems
+## Field Systems
 
 - Hawai‘i
 - Galápagos Islands
 
 ---
 
-## 📢 Latest Highlight
+## Latest Highlight
 
-📌 *Add your newest publication, field trip, or project update here*
+*Add your newest publication, field trip, or project update here*
 
 ---
 
