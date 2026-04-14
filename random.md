@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exploring the moving Tropic of Cancer"
+title: "Random"
 date: 2026-04-14
 ---
 
