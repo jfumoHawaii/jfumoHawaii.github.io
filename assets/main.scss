@@ -3,13 +3,25 @@
 
 @import "minima";
 
+/* ===== COLOR SYSTEM ===== */
+/* Edit these only */
+
+$color-bg: #F2E5D1;
+$color-text: #2B313B;
+
+$color-primary: #F1C055;   /* header line, strong accents */
+$color-accent: #90CFCA;   /* links, hover, highlights */
+$color-border: #CE6E3A;   /* subtle lines */
+$color-muted: #A83D73;    /* secondary text */
+
 /* ===== Global Typography ===== */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.7;
-  color: #222;
+  color: $color-text;
+  background: $color-bg;
 }
 
 /* Clean headings */
@@ -21,31 +33,32 @@ h1, h2, h3 {
 /* ===== Header ===== */
 
 .site-header {
-  border-top: 4px solid #2B313B; /* ocean blue */
-  border-bottom: 1px solid #F2E5D1;
-  background: white;
+  border-top: 4px solid $color-primary;
+  border-bottom: 1px solid $color-border;
+  background: $color-bg;
 }
 
 /* Title */
 .site-title {
   font-weight: 600;
   font-size: 20px;
+  color: $color-primary;
 }
 
 /* Nav links */
 .site-nav a {
-  color: #444;
+  color: $color-text;
   margin-left: 20px;
 }
 
 .site-nav a:hover {
-  color: #90CFCA;
+  color: $color-accent;
 }
 
 /* ===== Content Width ===== */
 
 .wrapper {
-  max-width: 900px;   /* tighter, more readable */
+  max-width: 900px;
 }
 
 /* ===== Images ===== */
@@ -54,7 +67,6 @@ img {
   border-radius: 6px;
 }
 
-/* Center figures nicely */
 p img {
   display: block;
   margin: 1.5em auto;
@@ -68,7 +80,7 @@ p img {
 }
 
 .post-meta {
-  color: #777;
+  color: $color-muted;
   font-size: 14px;
 }
 
@@ -76,14 +88,14 @@ p img {
 
 hr {
   border: none;
-  border-top: 1px solid #F2E5D1;
+  border-top: 1px solid $color-border;
   margin: 2em 0;
 }
 
 /* ===== Links ===== */
 
 a {
-  color: #90CFCA;
+  color: $color-accent;
   text-decoration: none;
 }
 
@@ -100,11 +112,11 @@ h2 {
 /* ===== Figure captions ===== */
 
 em {
-  color: #555;
+  color: darken($color-muted, 10%);
   font-size: 0.95em;
 }
 
-/* ===== Optional: make homepage feel more like a lab site ===== */
+/* ===== Homepage tweaks ===== */
 
 .home h1 {
   font-size: 36px;
