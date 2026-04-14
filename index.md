@@ -37,6 +37,6 @@ I am a researcher studying xyz.
 
 ---
 
-## 📫 Contact
+## Contact
 
-Email: your.email@domain.com
+Email: jfumo@hawaii.edu
