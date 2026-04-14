@@ -9,14 +9,49 @@ I am a researcher studying xyz.
   <button class="slider-btn prev" onclick="changeSlide(-1)">❮</button>
 
   <div class="slides">
-    <img class="slide active" src="/assets/images/banner1.jpg">
-    <div style="position:absolute; bottom:20px; left:30px; color:white;">
-      <strong>Majuro, RMI</strong><br>
-    <img class="slide" src="/assets/images/banner2.jpg">
-    <img class="slide" src="/assets/images/banner3.jpg">
-    <img class="slide" src="/assets/images/banner4.jpg">
-    <img class="slide" src="/assets/images/banner5.jpg">
-    <img class="slide" src="/assets/images/banner6.jpg">
+
+    <div class="slide active">
+      <img src="/assets/images/banner1.jpg">
+      <div class="caption">
+        <strong>Laura Beach, Majuro</strong><br>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/banner2.jpg">
+      <div class="caption">
+        <strong>Tortuga Bay, Galápagos</strong><br>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/banner3.jpg">
+      <div class="caption">
+        <strong>Turtle Canyons & Kuli‘ou‘ou, O‘ahu</strong><br>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/banner4.jpg">
+      <div class="caption">
+        <strong>Ke‘ei, Hawai‘i Island</strong><br>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/banner5.jpg">
+      <div class="caption">
+        <strong>Santa Fé, Galápagos</strong><br>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/banner6.jpg">
+      <div class="caption">
+        <strong>Turtle Canyons, O‘ahu</strong><br>
+      </div>
+    </div>
+
   </div>
 
   <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
@@ -41,13 +76,29 @@ I am a researcher studying xyz.
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
 }
 
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .slide.active {
   opacity: 1;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
 .slider-btn {
@@ -73,7 +124,7 @@ I am a researcher studying xyz.
 
 <script>
 let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
+const slides = document.querySelectorAll('.slides .slide');
 
 function showSlide(index) {
   slides.forEach((slide, i) => {
@@ -88,6 +139,8 @@ function changeSlide(direction) {
   if (currentSlide >= slides.length) currentSlide = 0;
   showSlide(currentSlide);
 }
+
 </script>
+
 ---
 Email: jfumo@hawaii.edu
