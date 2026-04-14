@@ -86,11 +86,6 @@ function changeSlide(direction) {
   if (currentSlide >= slides.length) currentSlide = 0;
   showSlide(currentSlide);
 }
-
-// Auto-slide every 10 seconds
-setInterval(() => {
-  changeSlide(1);
-}, 10000);
 </script>
 ---
 Email: jfumo@hawaii.edu
