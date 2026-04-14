@@ -1,3 +1,4 @@
+title: "Random"
 ---
 layout: post
 title: "Exploring the moving Tropic of Cancer"
