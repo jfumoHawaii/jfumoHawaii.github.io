@@ -7,19 +7,11 @@ date: 2026-04-14
 
 I was wondering how much does the latitude of the Tropic of Cancer actually changes through time. I calculated the position of the line through time relative to Mokumanamana.
 
----
-
-## 🗺️ Static Map
-
 <p align="center">
   <img src="assets/tropic_map.png" width="750">
 </p>
 
 *Figure 1. The shifting latitude of the Tropic of Cancer (every 100 years) relative to Mokumanamana.*
-
----
-
-## 🎚️ Interactive Exploration
 
 Use the slider below to explore how the Tropic of Cancer shifts through time:
 
