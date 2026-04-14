@@ -14,6 +14,7 @@ I am a researcher studying xyz.
     <img class="slide" src="/assets/images/banner3.jpg">
     <img class="slide" src="/assets/images/banner4.jpg">
     <img class="slide" src="/assets/images/banner5.jpg">
+    <img class="slide" src="/assets/images/banner6.jpg">
   </div>
 
   <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
