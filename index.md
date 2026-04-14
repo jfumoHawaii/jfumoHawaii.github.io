@@ -48,7 +48,7 @@ I am a researcher studying xyz.
     <div class="slide">
       <img src="/assets/images/banner6.jpg">
       <div class="caption">
-        <strong>Turtle Canyons, O‘ahu</strong><br>
+        <strong>Ke‘ehi, O‘ahu</strong><br>
       </div>
     </div>
 
