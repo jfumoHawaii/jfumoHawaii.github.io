@@ -3,7 +3,113 @@
 
 @import "minima";
 
-/* Your overrides */
+/* ===== Global Typography ===== */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Clean headings */
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+/* ===== Header ===== */
+
 .site-header {
-  border-top: 5px solid #ffcc00;
+  border-top: 4px solid #2c7fb8; /* ocean blue */
+  border-bottom: 1px solid #e5e5e5;
+  background: white;
+}
+
+/* Title */
+.site-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Nav links */
+.site-nav a {
+  color: #444;
+  margin-left: 20px;
+}
+
+.site-nav a:hover {
+  color: #2c7fb8;
+}
+
+/* ===== Content Width ===== */
+
+.wrapper {
+  max-width: 900px;   /* tighter, more readable */
+}
+
+/* ===== Images ===== */
+
+img {
+  border-radius: 6px;
+}
+
+/* Center figures nicely */
+p img {
+  display: block;
+  margin: 1.5em auto;
+}
+
+/* ===== Blog Posts ===== */
+
+.post-title {
+  font-size: 32px;
+  margin-bottom: 0.3em;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 14px;
+}
+
+/* ===== Horizontal Rules ===== */
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2em 0;
+}
+
+/* ===== Links ===== */
+
+a {
+  color: #2c7fb8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Subtle Section Styling ===== */
+
+h2 {
+  margin-top: 2em;
+}
+
+/* ===== Figure captions ===== */
+
+em {
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* ===== Optional: make homepage feel more like a lab site ===== */
+
+.home h1 {
+  font-size: 36px;
+}
+
+.home p {
+  font-size: 18px;
 }
