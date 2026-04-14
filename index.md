@@ -12,6 +12,7 @@ I am a researcher studying xyz.
     <img class="slide active" src="/assets/images/banner1.jpg">
     <img class="slide" src="/assets/images/banner2.jpg">
     <img class="slide" src="/assets/images/banner3.jpg">
+    <img class="slide" src="/assets/images/banner4.jpg">
   </div>
 
   <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
@@ -84,10 +85,10 @@ function changeSlide(direction) {
   showSlide(currentSlide);
 }
 
-// Auto-slide every 5 seconds
+// Auto-slide every 10 seconds
 setInterval(() => {
   changeSlide(1);
-}, 5000);
+}, 10000);
 </script>
 ---
 Email: jfumo@hawaii.edu
