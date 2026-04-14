@@ -5,8 +5,7 @@ title: "Exploring the moving Tropic of Cancer"
 date: 2026-04-14
 ---
 
-I was wondering how much does the latitude of the Tropic of Cancer actually changes through time.
-To explore this, I looked at the position of the tropic through time relative to Mokumanamana.
+I was wondering how much does the latitude of the Tropic of Cancer actually changes through time. I calculated the position of the line through time relative to Mokumanamana.
 
 ---
 
