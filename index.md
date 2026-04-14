@@ -10,6 +10,8 @@ I am a researcher studying xyz.
 
   <div class="slides">
     <img class="slide active" src="/assets/images/banner1.jpg">
+    <div style="position:absolute; bottom:20px; left:30px; color:white;">
+      <strong>Majuro, RMI</strong><br>
     <img class="slide" src="/assets/images/banner2.jpg">
     <img class="slide" src="/assets/images/banner3.jpg">
     <img class="slide" src="/assets/images/banner4.jpg">
