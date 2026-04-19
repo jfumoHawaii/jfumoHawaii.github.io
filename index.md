@@ -61,7 +61,7 @@ I am a researcher studying xyz.
 .slider-container {
   position: relative;
   max-width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   border-radius: 10px;
 }
